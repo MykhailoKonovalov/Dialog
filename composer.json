@@ -1,0 +1,17 @@
+{
+    "name": "konovalov/dialog",
+    "description": "Custom logging solution based on the monolog package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "MykhailoKonovalov",
+            "email": "mykhailo.konovalov@nure.ua"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Dialog\\": "src/dialog"}
+    },
+    "require": {
+        "monolog/monolog": "^2.2"
+    }
+}
